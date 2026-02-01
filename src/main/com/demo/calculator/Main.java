@@ -38,4 +38,9 @@ public class Main {
         // content goes here
         String a = "abcd";
     }
+
+    private void testMethod() {
+        double x = 28.5;
+        double y = 100.0;
+    }
 }
