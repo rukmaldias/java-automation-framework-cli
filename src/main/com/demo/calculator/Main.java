@@ -36,5 +36,6 @@ public class Main {
 
     public void anotherTestMethod() {
         // content goes here
+        String a = "abcd";
     }
 }

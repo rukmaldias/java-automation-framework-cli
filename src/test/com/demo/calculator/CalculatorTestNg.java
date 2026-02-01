@@ -45,19 +45,19 @@ public class CalculatorTestNg {
 
     @Test
     public void testSubtract() {
-        double result = calculator.subtract();
-        Assert.assertEquals(result, 0.0, "subtract() should return 0.0");
+        double result = calculator.subtract(10.0, 6.0);
+        Assert.assertEquals(result, 4.0, "subtract() should return 0.0");
     }
 
     @Test
     public void testDivide() {
-        double result = calculator.divide();
-        Assert.assertEquals(result, 0.0, "divide() should return 0.0");
+        double result = calculator.divide(25.0, 5.0);
+        Assert.assertEquals(result, 5.0, "divide() should return 0.0");
     }
 
     @Test
     public void testMultiply() {
-        double result = calculator.multiply();
-        Assert.assertEquals(result, 0.0, "multiply() should return 0.0");
+        double result = calculator.multiply(30.0, 3.0);
+        Assert.assertEquals(result, 90.0, "multiply() should return 0.0");
     }
 }
